@@ -1,0 +1,557 @@
+/* Background Image for Hero Section */
+.hero.bg1 {
+    background-image: url('shafan12s.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center 35% ;
+    height: 100vh;
+    filter: blur(px);
+}
+.pyy1 {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+/* Navbar Styling */
+.navbar {
+    transition: all 0.3s ease-in-out;
+    border-bottom: none; /* Ensure there's no bottom border */
+    z-index: 9999;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    background: linear-gradient(45deg, #fef2f1, #fafafc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-bottom: 1px;
+    
+}
+
+.navbar-brand:hover {
+    color: #ff6f61;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    color: #fcfcfc;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6f61, #6a82fb); /* Apply the gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent;}
+
+.navbar .nav-link.active {
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, #ff6f61, #6a82fb); /* Apply the gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 123, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #96611b;
+}*
+
+/* Hero Section Styling */
+.bg1 {
+    background: #262f65;
+}
+
+/* Typography Styling */
+h1.display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* About Section Styling */
+.about {
+    background-color: #ececec;
+    padding: 60px 0; /* Added padding for spacing */
+}
+
+.about h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #262f65;
+}
+.aboutt {
+    background-color: #ececec;
+    padding: 60px 0; /* Added padding for spacing */
+}
+
+.aboutt h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#ececec;
+}
+
+/* experience Section Styling */
+.experience {
+    background-color: #262f65;
+    padding: 60px 0; /* Added padding for spacing */
+}
+
+.experience h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ececec;
+}
+
+.exper p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color:#ececec;
+}
+
+
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+/* Shadow for a modern floating effect */
+.shadow-sm {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+.sticky-header {
+    background-color: #b5880e; /* Navbar background color */
+    position: sticky; /* Enables sticky positioning */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 10001;
+}
+.bgm1{
+    color: #262f65;
+    margin-bottom: 1rem;
+
+}
+
+/* experiance*/
+
+body {
+    background-color:  #262f65;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    padding: 5rem rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #ffffff;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left:-32%;
+}
+
+.right {
+    left: 37%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #16213e;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #16213e;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #16213e;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #16213e transparent transparent;
+}
+
+.right::after {
+    left: -12px;
+}
+
+.timeline-content {
+    padding: 10px 5px;
+    background-color: #16213e;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.timeline-logo img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 31px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .timeline-item::before {
+        left: 600px;
+        border: medium solid #16213e;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #16213e transparent transparent;
+    }
+
+    .left::after, .right::after {
+        left: 18px;
+    }
+
+    .right {
+        left: 0%;
+        width: 100px;
+        padding: 100px;
+    }
+}
+.wid{
+    width: 67%;;
+}
+.timeline-content p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5; /* Show only 5 lines */
+    max-height: 6em; /* Set max height based on font size */
+    transition: max-height 0.3s ease;
+}
+
+.timeline-content p.show-more {
+    -webkit-line-clamp: unset; /* Remove line restriction */
+    max-height: none; /* Expand the text */
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5; /* Show only 5 lines */
+    max-height: 7.5em; /* Adjust based on font size */
+    transition: max-height 0.3s ease;
+}
+
+.card-text.show-more {
+    -webkit-line-clamp: unset; /* Remove line restriction */
+    max-height: none; /* Expand to show full text */
+}
+
+.read-more-btn {
+    background-color: #FF9F55;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more-btn:focus {
+    outline: none;
+}
+.imgg1{
+    padding-top: 0rem;
+    width: 18rem;
+    height: auto;
+    padding-left: 53px;
+}
+.imgg2{
+    padding-top: 3rem;
+    width: 18rem;
+    height: auto;
+    padding-left: 72px;
+}
+
+
+
+
+/*project*/
+
+
+
+.project-card {
+    transition: all 0.3s ease;
+    height: 100%;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.card-title {
+    color: #2c3e50;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+.btn-secondary {
+    background-color: #95a5a6;
+    border-color: #95a5a6;
+}
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+}
+.section-heading {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.abouttt{
+    background-color: #ececec;
+    padding: 60px 0;
+    color: #16213e;
+    font-size: 2rem;
+}
+
+/* project heading */
+.experiencee {
+    background-color: #ffffff;
+    padding: 60px 0; /* Added padding for spacing */
+}
+
+.experiencee h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #16213e;
+}
+
+
+/* project card */
+
+
+.proj{
+    background-color: rgb(255, 255, 255); /* Set background color to white */
+}
+
+.card-titlee{
+    color: #16213e; /* Set text color in the card title and text to dark blue */
+    font-weight: bold; /* Make title bold for emphasis */
+    font-size: 1.25rem; /* Increase font size for better readability */
+}
+.card-textt {
+    color: #16213e; /* Set text color in the card title and text to dark blue */
+    font-weight: normal; /* Make title bold for emphasis */
+    font-size: 1.rem;
+}
+
+.project-details h5 {
+    color: #16213e; /* Set project details title color to dark blue */
+    font-weight:normal;/* Make project details title bold */
+    font-size: 0.2rem; /* Slightly larger font size */
+    margin-top: 15px; /* Add some space above the heading */
+}
+
+.project-details ul {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 0; /* Remove left padding */
+}
+
+.project-details ul li {
+    color: #16213e; /* Set list item text color to dark blue */
+    margin-bottom: 10px; /* Add space between list items */
+    position: relative; /* For custom bullet styling */
+}
+
+.project-details ul li::before {
+    content: "★"; /* Custom bullet point (check mark) */
+    color: #d91b0a; /* Color of the bullet point */
+    position: absolute; /* Positioning for custom bullet */
+    left: -20px; /* Adjust left position */
+}
+.firstimg{
+    width: 90%;
+    height: 15rem;
+    padding: 2rem;
+    border: 5px solid rgba(255, 111, 97, 0.5);
+    margin-bottom: 45px;
+    border-radius: 28px;
+    /* box-shadow: 10px 10px 10px 15px rgba(255, 111, 97, 0.5); */
+    transition: transform 0.3s ease, filter 0.3s ease;
+   
+}   
+.firstimg:hover{
+    transform: scale(1.05);
+    filter: brightness(90%);
+    z-index: 1;
+}
+.skill{
+    margin-bottom: 30px;
+}
+#offcanvasTop {
+    --bs-offcanvas-height: 80vh;
+    background-color: #c5e1d4;
+  }
+
+.getin{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}  
+.copyy{
+    color: white;
+}
+.btn-outline-secondary {
+    color: #ffffff; /* Change icon color to white */
+    border-color: #ffffff; /* Change button border color to white */
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add hover effect */
+}
+
+.list-inline-item a {
+    font-size: 1.5rem; /* Adjust icon size */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.list-inline-item a:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.btn-outline-secondary {
+    color: white; /* Change icon color to white */
+    border-color: white; /* Change button border color to white */
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add hover effect */
+}
+
+.list-inline-item a {
+    font-size: 1.5rem; /* Adjust icon size */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.list-inline-item a:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.navbar-toggler {
+    border-color: #96611b; /* Custom border color */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 123, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
